@@ -3,7 +3,7 @@ import store from "./store/store";
 import UserList from "./components/UserList";
 import UserForm from "./components/UserForm";
 import UserDetails from "./components/UserDetails";
-import "./App.css"; // Import CSS file
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const App = () => {
   return (
